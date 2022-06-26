@@ -1,0 +1,26 @@
+main: dev.amitprasad.smp.Plugin
+name: SMPUtils
+version: 1.0
+api-version: 1.19
+commands:
+  home:
+    description: Teleport to a home
+    usage: /home <home>
+  sethome:
+    description: Set a home
+    usage: /sethome <home>
+  delhome:
+    description: Delete a home
+    usage: /delhome <home>
+  homes:
+    description: List all homes
+    usage: /homes
+  tpa:
+    description: Request teleport to a player
+    usage: /tpa <player>
+  tpaccept:
+    description: Accept a teleport request
+    usage: /tpaccept
+  tpdeny:
+    description: Deny a teleport request
+    usage: /tpdeny
